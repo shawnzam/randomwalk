@@ -1,4 +1,4 @@
 #Ramdom Walks
 A Processing Script to generate a series of random walks that results in a set of images like the one below
 
-![ScreenShot](https://files-mktgit.rhcloud.com/walk2.gif =x700  "Optional title")
+![ScreenShot](https://github.com/shawnzam/randomwalk/blob/master/walk2.gif?raw=true =x700  "Optional title")
