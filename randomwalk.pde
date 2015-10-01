@@ -9,7 +9,7 @@ void setup()
   startY = myHeightWidth/2;
   fill(color(0, 0, 0));
   size(1000, 1000);
-  frameRate(100);
+  frameRate(10);
   background(178);
   index = 0;
 }
@@ -23,7 +23,7 @@ void draw()
   if(index % 10 == 0){
     println(index);
   }
-  if (index == 50) {
+  if (index == 500) {
     fill(color(255, 0, 0));
     ellipse(startX, startY, stepSize, stepSize);
     saveFrame(millis() + ".png");
@@ -56,8 +56,4 @@ void draw()
     break;
   }
   line(newStartX, newStartY, startX, startY);
-}
-
-void makePath() {
-  println("make");
 }
