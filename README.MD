@@ -1,5 +1,4 @@
 #Ramdom Walks
-[I'm an inline-style link](https://www.google.com)
 ###Run using https://processing.org/
 A Processing Script to generate a series of random walks that results in a set of images like the one below
 
